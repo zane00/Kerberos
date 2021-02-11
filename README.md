@@ -1,10 +1,17 @@
 # Kerberos
 
+> Filippo Zane | 11.02.2021
+
+### Importante
+All'interno di questa directory verranno elencati e replicati i metodi di attacco al protocollo di autenticazione di rete Kerberos.\
+L'autore ne approva la lettura per puro scopo informativo ma disapprova e condanna qualsiasi utilzzo improprio.
+
+
 <p align="center">
   <img src="https://web.mit.edu/kerberos/images/dog-ring.jpg" />
 </p>
 
-Kerberos è un protocollo di autenticazione dei servizi di rete creato da MIT che si serve della crittografia a chiave segreta per autenticare gli utenti per i servizi di rete - eliminando così la necessità di inviare le password attraverso la rete.
+Kerberos è un protocollo di autenticazione dei servizi di rete creato da MIT che si serve della crittografia a chiave segreta per autenticare gli utenti per i servizi di rete, eliminando così la necessità di inviare le password attraverso la rete.
 
 Autenticare mediante Kerberos impedisce agli utenti non autorizzati di intercettare le password inviate attraverso la rete, prevenendo quindi attacchi del tipo **eavesdropping** e **replay attack** e assicurando l'integrità dei dati.
 
@@ -27,5 +34,3 @@ Sono possibili numerosi attacchi a Kerberos:
 * **Credential Stuffing/Brute force:** Processo di invio continuo di password per cercare di indovinare quella corretta.
 * **Encryption downgrade with Skeleton Key Malware:** Un malware che può bypassare Kerberos (l'attacco deve avvenire già con l'accesso all'admin).
 * **DCShadow attack:** Un attaccante guadagna l'accesso all'interno di una rete dove installa un DC (Domain Controller) malevolo da utilizzare in attacchi futuri.
-
-> Filippo Zane | 11.02.2021
