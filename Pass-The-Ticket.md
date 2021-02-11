@@ -25,7 +25,7 @@ Un account KRBTGT è un account di Active Directory predefinito utilizzato dal K
 
 Andiamo ad eseguire `mimikatz`
 ```
-> mimikatx.exe
+> mimikatz.exe
 ```
 
 Controlliamo se abbiamo i permessi necessari per poter continuare\
