@@ -1,9 +1,7 @@
 # Kerberos
 
-> Filippo Zane | 11.02.2021
-
 ### Importante
-All'interno di questa directory verranno elencati e replicati i metodi di attacco al protocollo di autenticazione di rete Kerberos.\
+All'interno di questa repository verranno elencati e replicati i metodi di attacco al protocollo di autenticazione di rete Kerberos.\
 L'autore ne approva la lettura per puro scopo informativo ma disapprova e condanna qualsiasi utilzzo improprio.
 
 
@@ -11,6 +9,7 @@ L'autore ne approva la lettura per puro scopo informativo ma disapprova e condan
   <img src="https://web.mit.edu/kerberos/images/dog-ring.jpg" />
 </p>
 
+### Introduzione
 Kerberos è un protocollo di autenticazione dei servizi di rete creato da MIT che si serve della crittografia a chiave segreta per autenticare gli utenti per i servizi di rete, eliminando così la necessità di inviare le password attraverso la rete.
 
 Autenticare mediante Kerberos impedisce agli utenti non autorizzati di intercettare le password inviate attraverso la rete, prevenendo quindi attacchi del tipo **eavesdropping** e **replay attack** e assicurando l'integrità dei dati.
